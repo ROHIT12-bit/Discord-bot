@@ -1,12 +1,11 @@
 { pkgs }: {
-	deps = [
-		pkgs.nodejs-18_x
-		pkgs.ffmpeg.bin
-		pkgs.cairo
-		pkgs.pango
-		pkgs.libpng
-		pkgs.jpeg
-		pkgs.giflib
-		pkgs.pixman
-	];
+  deps = [
+    pkgs.nodejs_20
+    pkgs.pkg-config
+    pkgs.cairo
+    pkgs.pango
+    pkgs.libjpeg
+    pkgs.giflib
+    pkgs.librsvg
+  ];
 }
