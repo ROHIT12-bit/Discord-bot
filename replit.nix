@@ -1,9 +1,12 @@
 { pkgs }: {
 	deps = [
-		pkgs.ffmpeg.bin
 		pkgs.nodejs-20_x
-        pkgs.nodePackages.typescript-language-server
-        pkgs.yarn
-        pkgs.replitPackages.jest
+		pkgs.ffmpeg.bin
+		pkgs.cairo
+		pkgs.pango
+		pkgs.libpng
+		pkgs.jpeg
+		pkgs.giflib
+		pkgs.pixman
 	];
 }
