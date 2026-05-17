@@ -1,3 +1,13 @@
+const express = require("express");
+const app = express();
+
+app.get("/", (req, res) => {
+  res.send("Bot is alive!");
+});
+
+app.listen(3000, () => {
+  console.log("Web server running");
+});
 const Discord = require('discord.js');
 const chalk = require('chalk');
 require('dotenv').config('./.env');
